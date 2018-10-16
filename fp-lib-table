@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name tpfinal)(type KiCad)(uri ${KIPRJMOD}/tpfinal.pretty)(options "")(descr ""))
+  (lib (name SPH0644HM4H-1)(type Legacy)(uri /home/marcelo/Descargas/SPH0644HM4H-1/SPH0644HM4H-1.mod)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri /home/marcelo/CESE/CESE-PCB/PCB_TP_FINAL/digikey-kicad-library-master/digikey-footprints.pretty)(options "")(descr ""))
+)
