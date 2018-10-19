@@ -1,13 +1,15 @@
 EESchema Schematic File Version 4
+LIBS:tpFinal-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Sistema de comunicación en tiempo real por mensajes de voz
+"
+Date "2018-10-16"
+Rev "1.0"
+Comp "Marcelo Pistarelli"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -57,11 +59,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 3750 6550 3750
 Wire Wire Line
-	4450 3900 6200 3900
-Wire Wire Line
-	6200 3900 6200 3500
-Connection ~ 6200 3500
-Wire Wire Line
 	5750 2400 6200 2400
 Wire Wire Line
 	6200 2400 6200 3000
@@ -71,4 +68,13 @@ Wire Wire Line
 Wire Wire Line
 	5000 2400 5000 3000
 Connection ~ 5000 3000
+Text Label 4550 3900 0    50   ~ 0
+GND
+Text Label 6300 3500 0    50   ~ 0
+GND
+Wire Wire Line
+	6200 3500 6300 3500
+Connection ~ 6200 3500
+Wire Wire Line
+	4450 3900 4550 3900
 $EndSCHEMATC

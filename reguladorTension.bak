@@ -1,13 +1,15 @@
 EESchema Schematic File Version 4
+LIBS:tpFinal-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title ""
+Title "Sistema de comunicación en tiempo real por mensajes de voz
+"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "Marcelo Pistarelli"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -92,7 +94,7 @@ U 1 1 5BC5CD70
 P 6350 3300
 F 0 "L1" V 6540 3300 50  0000 C CNN
 F 1 "2.2uH" V 6449 3300 50  0000 C CNN
-F 2 "" H 6350 3300 50  0001 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 6350 3300 50  0001 C CNN
 F 3 "~" H 6350 3300 50  0001 C CNN
 	1    6350 3300
 	0    -1   -1   0   

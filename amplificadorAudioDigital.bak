@@ -1,13 +1,15 @@
 EESchema Schematic File Version 4
+LIBS:tpFinal-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title ""
+Title "Sistema de comunicación en tiempo real por mensajes de voz
+"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "Marcelo Pistarelli"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -92,19 +94,15 @@ Wire Wire Line
 	4100 3950 4350 3950
 Connection ~ 4700 4100
 Wire Wire Line
-	4700 2950 4100 2950
-Wire Wire Line
-	4100 2950 4100 3100
-Wire Wire Line
 	4100 3400 4100 3500
 Connection ~ 4100 3500
-Text HLabel 3950 2550 0    50   Input ~ 0
+Text HLabel 3100 2550 0    50   Input ~ 0
 Din
-Text HLabel 3950 2700 0    50   Input ~ 0
+Text HLabel 3100 2700 0    50   Input ~ 0
 SD_MODE
-Text HLabel 3950 2850 0    50   Input ~ 0
+Text HLabel 3100 2850 0    50   Input ~ 0
 BCLK
-Text HLabel 3950 3000 0    50   Input ~ 0
+Text HLabel 3100 3000 0    50   Input ~ 0
 LRCLK
 Text HLabel 6150 2850 2    50   Output ~ 0
 OUT-
@@ -114,35 +112,53 @@ Wire Wire Line
 	5900 2850 6150 2850
 Wire Wire Line
 	5900 2950 6150 2950
-Wire Wire Line
-	4700 3250 4550 3250
-Wire Wire Line
-	4550 3250 4550 3000
-Wire Wire Line
-	4550 3000 3950 3000
-Wire Wire Line
-	4700 3150 4600 3150
-Wire Wire Line
-	4600 3150 4600 2850
-Wire Wire Line
-	4600 2850 3950 2850
-Wire Wire Line
-	4700 3050 4650 3050
-Wire Wire Line
-	4650 3050 4650 2700
-Wire Wire Line
-	4650 2700 3950 2700
-Wire Wire Line
-	3950 2550 4700 2550
-Wire Wire Line
-	4700 2550 4700 2850
-Text HLabel 3650 3500 0    50   Input ~ 0
+Text HLabel 3050 3500 0    50   Input ~ 0
 Vdd
-Text HLabel 3650 4100 0    50   Input ~ 0
+Text HLabel 3050 4100 0    50   Input ~ 0
 GND
 Wire Wire Line
-	3650 4100 4100 4100
+	3050 4100 4100 4100
 Connection ~ 4100 4100
 Wire Wire Line
-	3650 3500 4100 3500
+	3050 3500 4100 3500
+Text Label 3200 2550 0    50   ~ 0
+Din
+Text Label 4600 2850 2    50   ~ 0
+Din
+Text Label 3200 2700 0    50   ~ 0
+SD_MODE
+Text Label 4600 3050 2    50   ~ 0
+SD_MODE
+Text Label 3200 2850 0    50   ~ 0
+BCLK
+Text Label 4600 3150 2    50   ~ 0
+BCLK
+Text Label 3200 3000 0    50   ~ 0
+LRCLK
+Text Label 4600 3250 2    50   ~ 0
+LRCLK
+Text Label 4600 2950 2    50   ~ 0
+GAIN_SLOT
+Text Label 4000 3100 2    50   ~ 0
+GAIN_SLOT
+Wire Wire Line
+	3100 2550 3200 2550
+Wire Wire Line
+	3100 2700 3200 2700
+Wire Wire Line
+	3100 2850 3200 2850
+Wire Wire Line
+	3100 3000 3200 3000
+Wire Wire Line
+	4600 2850 4700 2850
+Wire Wire Line
+	4600 2950 4700 2950
+Wire Wire Line
+	4600 3050 4700 3050
+Wire Wire Line
+	4600 3150 4700 3150
+Wire Wire Line
+	4600 3250 4700 3250
+Wire Wire Line
+	4000 3100 4100 3100
 $EndSCHEMATC
