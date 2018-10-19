@@ -1791,7 +1791,7 @@
       (solder_mask_margin 0.5) (clearance 0.5))
   )
 
-  (gr_text "Grillas: 1 mm ,0,5 mm , 0,25 mm\nVia: 0.8 mm / 0.4 mm\nMargen: 0.2 mm\nPista: 0.6 mm, 0.4 mm, 0,25 mm , 0.2 mm\nDist. a borde: 0.80 mm\nMaterial: FR-4\nTerminacion: HASL" (at 198 61) (layer Dwgs.User)
+  (gr_text "Grillas: 1 mm ,0,5 mm , 0,25 mm\nVia: 0.8 mm / 0.4 mm\nMargen: 0.2 mm\nPista: 0.6 mm, 0.4 mm, 0,25 mm , 0.2 mm\nDist. a borde: 0.80 mm\nMaterial: FR-4 TG130\nTerminacion: HASL" (at 198 61) (layer Dwgs.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text "REV: V1.0" (at 152 136) (layer F.SilkS)
