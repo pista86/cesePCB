@@ -4,22 +4,22 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 3 4
 Title "Sistema de comunicación en tiempo real por mensajes de voz
 "
 Date "2018-10-16"
 Rev "1.0"
 Comp "Marcelo Pistarelli"
-Comment1 ""
+Comment1 "<C> 2018 Todos los derechos reservados"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L tpfinal:TS12I SWR1
+L tpfinal:TS12I SW1
 U 1 1 5BC6F482
 P 4200 2750
-F 0 "SWR1" H 4200 3477 50  0000 C CNN
+F 0 "SW1" H 4200 3477 50  0000 C CNN
 F 1 "TS12I" H 4200 3386 50  0000 C CNN
 F 2 "tpfinal:TS12I" H 3500 2000 50  0001 L BNN
 F 3 "" H 3500 2000 50  0001 L BNN
@@ -27,10 +27,10 @@ F 3 "" H 3500 2000 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tpfinal:TS12I SWG1
+L tpfinal:TS12I SW2
 U 1 1 5BC6F666
 P 6950 2700
-F 0 "SWG1" H 6950 3427 50  0000 C CNN
+F 0 "SW2" H 6950 3427 50  0000 C CNN
 F 1 "TS12I" H 6950 3336 50  0000 C CNN
 F 2 "tpfinal:TS12I" H 6250 1950 50  0001 L BNN
 F 3 "" H 6250 1950 50  0001 L BNN
@@ -38,10 +38,10 @@ F 3 "" H 6250 1950 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tpfinal:TS12I SWB1
+L tpfinal:TS12I SW3
 U 1 1 5BC6F760
 P 4200 4650
-F 0 "SWB1" H 4200 5377 50  0000 C CNN
+F 0 "SW3" H 4200 5377 50  0000 C CNN
 F 1 "TS12I" H 4200 5286 50  0000 C CNN
 F 2 "tpfinal:TS12I" H 3500 3900 50  0001 L BNN
 F 3 "" H 3500 3900 50  0001 L BNN
@@ -49,10 +49,10 @@ F 3 "" H 3500 3900 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tpfinal:TS12I SWY1
+L tpfinal:TS12I SW4
 U 1 1 5BC6F7CF
 P 7000 4650
-F 0 "SWY1" H 7000 5377 50  0000 C CNN
+F 0 "SW4" H 7000 5377 50  0000 C CNN
 F 1 "TS12I" H 7000 5286 50  0000 C CNN
 F 2 "tpfinal:TS12I" H 6300 3900 50  0001 L BNN
 F 3 "" H 6300 3900 50  0001 L BNN
@@ -195,8 +195,6 @@ Wire Wire Line
 	3500 4400 3600 4400
 Wire Wire Line
 	6300 4400 6400 4400
-Text HLabel 5400 3700 0    50   Input ~ 0
-GND
 Wire Wire Line
 	5400 3700 5550 3700
 Text HLabel 3500 2900 0    50   Input ~ 0
@@ -227,4 +225,15 @@ Wire Wire Line
 Connection ~ 6400 4800
 Wire Wire Line
 	6400 4800 6400 4900
+$Comp
+L power:GND #PWR0103
+U 1 1 5BFAD7C5
+P 5400 3700
+F 0 "#PWR0103" H 5400 3450 50  0001 C CNN
+F 1 "GND" H 5405 3527 50  0000 C CNN
+F 2 "" H 5400 3700 50  0001 C CNN
+F 3 "" H 5400 3700 50  0001 C CNN
+	1    5400 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

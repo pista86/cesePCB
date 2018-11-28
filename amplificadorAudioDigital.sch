@@ -4,13 +4,13 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 2 4
 Title "Sistema de comunicación en tiempo real por mensajes de voz
 "
 Date "2018-10-16"
 Rev "1.0"
 Comp "Marcelo Pistarelli"
-Comment1 ""
+Comment1 "<C> 2018 Todos los derechos reservados"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -112,10 +112,6 @@ Wire Wire Line
 	5900 2850 6150 2850
 Wire Wire Line
 	5900 2950 6150 2950
-Text HLabel 3050 3500 0    50   Input ~ 0
-Vdd
-Text HLabel 3050 4100 0    50   Input ~ 0
-GND
 Wire Wire Line
 	3050 4100 4100 4100
 Connection ~ 4100 4100
@@ -161,4 +157,30 @@ Wire Wire Line
 	4600 3250 4700 3250
 Wire Wire Line
 	4000 3100 4100 3100
+$Comp
+L power:GND #PWR0101
+U 1 1 5BFA97DD
+P 3050 4100
+F 0 "#PWR0101" H 3050 3850 50  0001 C CNN
+F 1 "GND" H 3055 3927 50  0000 C CNN
+F 2 "" H 3050 4100 50  0001 C CNN
+F 3 "" H 3050 4100 50  0001 C CNN
+	1    3050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5BFAC44C
+P 3050 3450
+AR Path="/5BFAC44C" Ref="#PWR?"  Part="1" 
+AR Path="/5BC61204/5BFAC44C" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3050 3300 50  0001 C CNN
+F 1 "+BATT" H 3065 3623 50  0000 C CNN
+F 2 "" H 3050 3450 50  0001 C CNN
+F 3 "" H 3050 3450 50  0001 C CNN
+	1    3050 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3450 3050 3500
 $EndSCHEMATC
