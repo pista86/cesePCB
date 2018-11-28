@@ -10,7 +10,7 @@ Title "Sistema de comunicación en tiempo real por mensajes de voz
 Date "2018-10-16"
 Rev "1.1"
 Comp "Empresa: Marcelo Pistarelli"
-Comment1 "<C> 2018 Todos los derechos reservados"
+Comment1 "Creative Commons - Attribution - ShareAlike 3.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
