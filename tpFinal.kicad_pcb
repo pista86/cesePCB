@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~67~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 398)
     (zones 0)
     (modules 42)
@@ -14,7 +14,8 @@
     (title "PCB Sistema de intercambio de mensajes de voz")
     (date 2018-10-18)
     (rev 1.0)
-    (company "Marcelo Pistarelli")
+    (company "Empresa: Marcelo Pistarelli")
+    (comment 1 "Creative Commons - Attribution - ShareAlike 3.0")
   )
 
   (layers
@@ -70,6 +71,7 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
@@ -616,13 +618,13 @@
     )
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5C178C32)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 5BFE989F) (tstamp 5C178C32)
     (at 140 41)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (path /5BD524C1)
     (attr virtual)
-    (fp_text reference MH1 (at 3 2.5) (layer F.SilkS)
+    (fp_text reference MH1 (at 3 2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 3.2) (layer F.Fab)
@@ -653,13 +655,13 @@
       (net 1 GND))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5C17566A)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 5BFE98A7) (tstamp 5C17566A)
     (at 184 41)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (path /5BD52774)
     (attr virtual)
-    (fp_text reference MH2 (at 0 4) (layer F.SilkS)
+    (fp_text reference MH2 (at 0 4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 3.2) (layer F.Fab)
@@ -690,13 +692,13 @@
       (net 1 GND))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5C17567A)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 5BFE9887) (tstamp 5C17567A)
     (at 140 135)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (path /5BD528EC)
     (attr virtual)
-    (fp_text reference MH3 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference MH3 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 3.2) (layer F.Fab)
@@ -727,13 +729,13 @@
       (net 1 GND))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5C17568A)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 5BFE9872) (tstamp 5C17568A)
     (at 184 135)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (path /5BD5293A)
     (attr virtual)
-    (fp_text reference MH4 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference MH4 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 3.2) (layer F.Fab)
@@ -1729,13 +1731,13 @@
     )
   )
 
-  (module Fiducial:Fiducial_1mm_Dia_2mm_Outer (layer F.Cu) (tedit 59FE003E) (tstamp 5C2D2F6B)
+  (module Fiducial:Fiducial_1mm_Dia_2mm_Outer (layer F.Cu) (tedit 5BFE9881) (tstamp 5C2D2F6B)
     (at 144.5 135)
     (descr "Circular Fiducial, 1mm bare copper top; 2mm keepout (Level A)")
     (tags marker)
     (path /5BD640C3)
     (attr virtual)
-    (fp_text reference FD1 (at 0 -2) (layer F.SilkS)
+    (fp_text reference FD1 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Fiducial (at 0 2) (layer F.Fab)
@@ -1750,13 +1752,13 @@
       (solder_mask_margin 0.5) (clearance 0.5))
   )
 
-  (module Fiducial:Fiducial_1mm_Dia_2mm_Outer (layer F.Cu) (tedit 59FE003E) (tstamp 5C2D2F73)
+  (module Fiducial:Fiducial_1mm_Dia_2mm_Outer (layer F.Cu) (tedit 5BFE9879) (tstamp 5C2D2F73)
     (at 179.5 135)
     (descr "Circular Fiducial, 1mm bare copper top; 2mm keepout (Level A)")
     (tags marker)
     (path /5BD6429A)
     (attr virtual)
-    (fp_text reference FD2 (at 0 -2) (layer F.SilkS)
+    (fp_text reference FD2 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Fiducial (at 0 2) (layer F.Fab)
@@ -1771,13 +1773,13 @@
       (solder_mask_margin 0.5) (clearance 0.5))
   )
 
-  (module Fiducial:Fiducial_1mm_Dia_2mm_Outer (layer F.Cu) (tedit 59FE003E) (tstamp 5C2D2F7B)
+  (module Fiducial:Fiducial_1mm_Dia_2mm_Outer (layer F.Cu) (tedit 5BFE9894) (tstamp 5C2D2F7B)
     (at 144.5 41)
     (descr "Circular Fiducial, 1mm bare copper top; 2mm keepout (Level A)")
     (tags marker)
     (path /5BD64300)
     (attr virtual)
-    (fp_text reference FD3 (at 0 -2) (layer F.SilkS)
+    (fp_text reference FD3 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Fiducial (at 0 2) (layer F.Fab)
@@ -1792,6 +1794,9 @@
       (solder_mask_margin 0.5) (clearance 0.5))
   )
 
+  (gr_text "Reglas de fabricación de SeeedStudio:\n\n1) https://www.seeedstudio.com/fusion_pcb.html\n2) http://support.seeedstudio.com/knowledgebase/articles/447362-fusion-pcb-specification\n\n\nEl criterio de selección de ancho mínimo de pista de 6/6 mil es conforme a las capacidades de fabricación de SeeedStudio. \nDonde 6/6 mil es la tecnología más económica que ofrece, también soporta a un mayor precio las tecnologías de 5/5 mil y 4/4 mil.\n\nYa se han fabricado en SeeedStudio varias placas con tecnología 6/6 mil sin fallas." (at 95 160) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "Fabricante: seeedstudio\nGrillas: 1 mm ,0,5 mm , 0,25 mm\nVia: 0.8 mm / 0.4 mm\nMargen: 0.2 mm\nPista: 0.6 mm, 0.4 mm, 0,25 mm , 0.2 mm\nDist. a borde: 0.80 mm\nMaterial: FR-4 TG130\nTerminacion: HASL" (at 198 61) (layer Dwgs.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
